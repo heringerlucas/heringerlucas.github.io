@@ -1,0 +1,265 @@
+body{
+    font-family: "Open Sans", sans-serif, Arial;
+    color: black;
+}
+
+
+h1, h2, h3 {
+    
+    margin: 3;
+
+    font-family: "Roboto", sans-serif, Arial;
+    font-weight: 700;
+   
+}
+
+nav{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #1a1a1a
+}
+
+nav > a{
+    text-decoration: inherit;
+    color: #ff6501;
+    font-weight: 4;
+    font-size: 30px;
+    font-family: Courgette;
+
+}
+
+nav ul{
+    list-style: none;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+
+nav ul li {
+
+    text-align: center;
+    width: 100%;
+
+
+}
+
+nav ul li a {
+    
+    display: inline-block;
+    padding: 10px 0;
+    width: 100%;
+    text-decoration: none;
+    font-family: monospace;
+    color: #f1f1f1;
+}
+
+header {
+    
+    background-color: #ff6501;
+    background-size: cover;
+    background-position: center;
+    backgroud-repeat: no-repeat;
+    color: #f1f1f1;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 20px 20px 20px 20px;
+        
+}
+
+header p {
+    
+    
+    background-color: #1a1a1a;
+    border-radius: 10px;
+    padding 10px;
+    text-decoration: none;
+
+}
+
+header bot{
+    color: #1a1a1a;
+    font-size: 30px
+    
+}
+
+#edu{
+
+    display flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+#edu div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    color: #ff6501;
+    background-color: #1a1a1a;
+    padding: 20px;
+    
+}
+
+#edu mar{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    font-family: "Roboto";
+    font-size: 20px;
+    text-decoration: none;
+    color: #ff6501;
+    background-color: #1a1a1a;
+
+    
+    
+}
+
+#exp {
+    background-image: url('../img/rhalloween_chevron_shop_preview.png');
+    padding:20;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 20px;
+    text-align: center;
+    color: #f1f1f1;
+    padding-bottom: 40px
+    
+}
+
+
+#kno div{
+   display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    
+    background-color: #1a1a1a;
+    color: #ff6501;
+    
+}
+
+#kno maar{
+    color: #ff6501;
+    font-size: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    background-color: #1a1a1a;
+    
+}
+
+#kno ttl{
+      color: #ff6501;
+        font-size: 20px;
+        display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    background-color: #1a1a1a;  
+}
+
+#kno tec{
+    color: #1a1a1a;
+        
+        display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    background-color: f1f1f1;  
+    
+}
+
+#kno ttll{
+    
+    color: #1a1a1a;
+        font-size: 20px;
+        display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    background-color: f1f1f1; 
+    
+    
+}
+
+#qua{
+    color: #1a1a1a;
+    background-color: #ff6501;;
+    display: flex;
+    font-size: 20px;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    
+}
+
+#cont{
+    color: #ff6501;
+        font-size: 20px;
+        display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    background-color: #1a1a1a;
+    
+}
+
+#footer{
+    
+    font-family: Pacifico;
+    color: #1a1a1a;
+    font-size: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    background-color: #ff6501;
+    text-decoration: inherit;
+}
+
+@media screen and (min-width: 768px){
+    
+    nav {
+    flex-direction: row;
+    justify-content: space-around;
+    }
+    nav ul {
+        flex-direction: row;
+        width: 70%;
+    }
+    
+    header {
+        
+        justify-content: center;
+    }
+    
+    #cont  {
+    
+       
+     
+    }
+    #cont h2{
+        
+        text-align: center;
+        width: 100%
+            
+    }
+    cont div{
+         flex-direction: row;
+        display: inline-block;
+        flex-grow: 1;
+        
+        
+        
+        
+    }
+    
+    
